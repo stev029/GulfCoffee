@@ -42,7 +42,7 @@
   - Authorization: Token token...
 
   Response body:
-  ```json
+  ```
   {
     "id": uuid4,
     "email": "example@email.com",
@@ -73,7 +73,7 @@
   - Content-type: multipart/form-data
   
   Requests body:
-  ```json
+  ```
   {
     "name": "foo",
     "description": "lorem ipsum",
@@ -85,7 +85,7 @@
   ```
   
   Response body: 
-  ```json
+  ```
   {
     "count": 2,
     "next": null,
@@ -123,7 +123,7 @@
   - Content-type: multipart/form-data
   
   Requests body:
-  ```json
+  ```
   {
     "name": "bar",
     "description": "lorem ipsum",
@@ -136,7 +136,7 @@
   ```
 
   Response body:
-  ```json
+  ```
   {
     "id": uuid4,
     "email": "example@email.com",
@@ -174,7 +174,7 @@
   - Content-type: application/json
   
   Requests body:
-  ```json
+  ```
   {
     "quantity": "1",
     "note": "lorem ipsum",
@@ -183,7 +183,7 @@
   ```
   
   Response body: 
-  ```json
+  ```
   {
     "count": 3,
     "next": null,
@@ -218,7 +218,7 @@
   - Content-type: application/json
 
   Response body:
-  ```json
+  ```
   {
     "quantity": "1",
     "note": "lorem ipsum",
@@ -251,7 +251,7 @@
   - Content-type: application/json
 
   Response body:
-  ```json
+  ```
   {
     "name": "foo",
     "item": (primarykey id)
