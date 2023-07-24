@@ -99,7 +99,7 @@
       "thumbnail": "http://127.0.0.1:8000/media/coffee_images/foo.jpg",
       "description": "lorem ipsum",
       ...
-    },
+    }
   }
   ```
   Status success: 
