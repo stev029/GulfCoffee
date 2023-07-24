@@ -1,0 +1,26 @@
+[
+    {
+        "model": "menu.CategoriesMenu",
+        "fields": {
+            "name": "Snacks"
+        }
+    },
+    {
+        "model": "menu.CategoriesMenu",
+        "fields": {
+            "name": "Coffee"
+        }
+    },
+    {
+        "model": "menu.CategoriesMenu",
+        "fields": {
+            "name": "Lunch"
+        }
+    },
+    {
+        "model": "menu.CategoriesMenu",
+        "fields": {
+            "name": "Breakfast"
+        }
+    }
+]

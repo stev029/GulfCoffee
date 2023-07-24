@@ -1,0 +1,74 @@
+[
+    {
+        "model": "customer.user",
+        "pk": "00466725-d278-4f48-a43a-058a4c7bc04d",
+        "fields": {
+            "password": "pbkdf2_sha256$600000$Y1MCOAJtUbj9HyGAE7BP4V$s19BAEK5midiP9b8Zuuf9tZ3z7sImyA+8qqt5di9aZE=",
+            "last_login": null,
+            "is_superuser": true,
+            "username": "adhit240",
+            "first_name": "Adhit",
+            "last_name": "Saputra",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2021-02-12T01:08:35.694Z",
+            "email": "abyy1144@gmail.com",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "customer.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$216000$MB9dSIQ8vjPk$IHNV7NBEJP2vwY6+STa0BoQZJ5bBfbnbBs9AmNUuQpQ=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "arianagrande",
+            "first_name": "Ariana",
+            "last_name": "Grande",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2021-02-12T01:08:35.694Z",
+            "email": "arianagrande@gmail.com",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "customer.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$216000$5JofwM6et8n0$CnL76WgyGykMXs1OBV+qD8B2RHvTzYsUtIIq/8QPLZQ=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "jerryseinfeld",
+            "first_name": "Jerry",
+            "last_name": "Seinfeld",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2021-02-12T01:08:35.694Z",
+            "email": "jerry.seinfeld@yahoo.com",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "customer.user",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$216000$oe8sSAuzwCsh$FFV2DP2umTFBv8vBaYArW4anddrnlcEe4TeIXHk9PA4=",
+            "last_login": "2021-02-15T02:55:38.337Z",
+            "is_superuser": false,
+            "username": "hughjackman",
+            "first_name": "Hugh",
+            "last_name": "Jackman",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2021-02-15T02:52:25.688Z",
+            "email": "hjackman@gmail.com",
+            "groups": [],
+            "user_permissions": []
+        }
+    }
+]
