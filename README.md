@@ -302,20 +302,24 @@ If both of these steps are completed properly, you should see your command line 
    SECRET_KEY=[secret key here]
    DEBUG=[debug value here]
    ```
-6. Setup the database schema
+6. Make database schema
+   ```
+   python manage.py makemigrations
+   ```
+7. Setup the database schema
    ```
    python manage.py migrate
    ```
-7. Populate the database with sample data
+8. Populate the database with sample data
    ```
    python manage.py loaddata menu/fixtures/coffee.json
    python manage.py loaddata customer/fixtures/users.json
    ```
-8. Create a super user to access the admin dashboard
+9. Create a super user to access the admin dashboard
    ```
    python manage.py createsuperuser
    ```
-9. Run the server and then login to the admin dashboard at [http://127.0.0.1:8000/admin/](http://127.0.0.1:8000/admin/) with your newly created super user
+10. Run the server and then login to the admin dashboard at [http://127.0.0.1:8000/admin/](http://127.0.0.1:8000/admin/) with your newly created super user
    ```
    python manage.py runserver
    ```
